@@ -1,13 +1,13 @@
 # **Predicting Sales for Luther's Scoops Using Machine Learning**
 
 ## **📌 Project Overview**
-This project builds and evaluates machine learning models to **predict daily ice cream sales** for **Luther's Scoops**. By analyzing historical sales data, we identify key factors that drive sales and optimize pricing, promotions, and inventory management.
+I love ice creame! This project builds and evaluates machine learning models to **predict daily ice cream sales** for **Luther's Scoops** - my all time favourite ice cream shop in Melbourne. By analyzing historical sales data, I identify key factors that drive sales and optimize pricing, promotions, and inventory management.
 
 ## **📊 Dataset**
-- **Source:** Luther's Scoops corrected sales data.
+- **Source:** Luther's Scoops sales data.
 - **Size:** 17,532 entries, 16 columns.
 - **Key Features:**
-  - **Date-based:** Year, Month, Day, Weekday, Season
+  - **Date-based:** Date, Weekday, Season
   - **Product-based:** Flavor, Price per scoop, Promotion
   - **Weather-based:** Temperature, Rainfall
   - **Event-based:** Special events, Customer traffic, Social media sentiment
@@ -17,8 +17,8 @@ This project builds and evaluates machine learning models to **predict daily ice
 ### **1️⃣ Data Preprocessing & Feature Engineering**
 ✔ Handled missing values (dropped missing target values, imputed categorical data).  
 ✔ Removed `total_revenue` to prevent **data leakage**.  
-✔ Created new features (e.g., `rooms_per_household`).  
-✔ Standardized numerical features and encoded categorical variables using **Scikit-Learn Pipelines**.
+✔ Created new features (extract Date feature to 3 features Day, Month, Year).  
+✔ Automated the data preprocessing for ML using **Scikit-Learn Transformation Pipelines** (for standardized numerical features and encoded categorical variables).
 
 ### **2️⃣ Model Training & Evaluation**
 ✅ **Tried 3 models:**  
@@ -62,6 +62,4 @@ jupyter notebook
 
 ## **📬 Contact**
 If you have any questions or suggestions, feel free to reach out!
-- **Author:** Christian
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
-- **Email:** your.email@example.com
+- **LinkedIn:** [Your LinkedIn Profile](linkedin.com/in/anquach01)
