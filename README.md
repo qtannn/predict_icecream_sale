@@ -1,7 +1,7 @@
 # **Predicting Sales for Luther's Scoops Using Machine Learning**
 
 ## **📌 Project Overview**
-I love ice creame! This project builds and evaluates machine learning models to **predict daily ice cream sales** for **Luther's Scoops** - my all time favourite ice cream shop in Melbourne. By analyzing historical sales data, I identify key factors that drive sales and optimize pricing, promotions, and inventory management.
+I love ice cream! This project builds and evaluates machine learning models to **predict daily ice cream sales** for **Luther's Scoops** - my all time favourite ice cream shop in Melbourne. By analyzing historical sales data, I identify key factors that drive sales and optimize pricing, promotions, and inventory management.
 
 ## **📊 Dataset**
 - **Source:** Luther's Scoops sales data.
