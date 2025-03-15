@@ -62,4 +62,4 @@ jupyter notebook
 
 ## **📬 Contact**
 If you have any questions or suggestions, feel free to reach out!
-- **LinkedIn:** [Your LinkedIn Profile](linkedin.com/in/anquach01)
+- **LinkedIn:** [Tan An (Christian) Quach](linkedin.com/in/anquach01)
